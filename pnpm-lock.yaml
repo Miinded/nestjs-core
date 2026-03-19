@@ -24,6 +24,9 @@ catalogs:
     '@nestjs/testing':
       specifier: ^11.1.13
       version: 11.1.14
+    '@nestjs/typeorm':
+      specifier: ^11.0.0
+      version: 11.0.0
     '@swc/core':
       specifier: ^1.13.5
       version: 1.15.18
@@ -130,9 +133,6 @@ importers:
 
   packages/nestjs-db-options:
     dependencies:
-      '@nestjs/typeorm':
-        specifier: ^11.0.0
-        version: 11.0.0(@nestjs/common@11.1.14(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.14)(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.28(ioredis@5.10.0)(ts-node@10.9.2(@swc/core@1.15.18)(@types/node@25.3.3)(typescript@5.9.3)))
       typeorm:
         specifier: ^0.3.25
         version: 0.3.28(ioredis@5.10.0)(ts-node@10.9.2(@swc/core@1.15.18)(@types/node@25.3.3)(typescript@5.9.3))
@@ -146,6 +146,9 @@ importers:
       '@nestjs/testing':
         specifier: 'catalog:'
         version: 11.1.14(@nestjs/common@11.1.14(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.14)(@nestjs/microservices@11.1.14)(@nestjs/platform-express@11.1.14)
+      '@nestjs/typeorm':
+        specifier: 'catalog:'
+        version: 11.0.0(@nestjs/common@11.1.14(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.14)(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.28(ioredis@5.10.0)(ts-node@10.9.2(@swc/core@1.15.18)(@types/node@25.3.3)(typescript@5.9.3)))
       '@swc/core':
         specifier: 'catalog:'
         version: 1.15.18
