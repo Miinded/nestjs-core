@@ -38,6 +38,12 @@
       "import": "./dist/esm/index.js",
       "require": "./dist/cjs/index.js",
       "default": "./dist/cjs/index.js"
+    },
+    "./dist/migrations": {
+      "types": "./dist/cjs/migrations/index.d.ts",
+      "import": "./dist/esm/migrations/index.js",
+      "require": "./dist/cjs/migrations/index.js",
+      "default": "./dist/cjs/migrations/index.js"
     }
   },
   "sideEffects": false,
