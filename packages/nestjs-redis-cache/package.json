@@ -1,6 +1,6 @@
 {
   "name": "@miinded/nestjs-redis-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Production-ready NestJS module for Redis caching with ioredis integration.",
   "license": "MIT",
   "author": "Miinded",
