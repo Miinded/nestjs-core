@@ -1,6 +1,6 @@
 {
   "name": "@miinded/nestjs-db-options",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Production-ready NestJS module for database options management with TypeORM integration.",
   "license": "MIT",
   "author": "Miinded",
