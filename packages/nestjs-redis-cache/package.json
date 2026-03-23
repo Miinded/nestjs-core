@@ -6,13 +6,13 @@
   "author": "Miinded",
   "repository": {
     "type": "git",
-    "url": "https://github.com/miinded/nestjs-core.git",
+    "url": "https://github.com/Miinded/nestjs-core.git",
     "directory": "packages/nestjs-redis-cache"
   },
   "bugs": {
-    "url": "https://github.com/miinded/nestjs-core/issues"
+    "url": "https://github.com/Miinded/nestjs-core/issues"
   },
-  "homepage": "https://github.com/miinded/nestjs-core/tree/main/packages/nestjs-redis-cache",
+  "homepage": "https://github.com/Miinded/nestjs-core/tree/main/packages/nestjs-redis-cache",
   "keywords": [
     "nestjs",
     "nest",
