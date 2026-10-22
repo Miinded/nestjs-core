@@ -23,7 +23,7 @@
     "typescript"
   ],
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "publishConfig": {
     "access": "public"
@@ -57,8 +57,8 @@
     "test:coverage": "node ../../config/run-jest.mjs coverage"
   },
   "dependencies": {
-    "@nestjs-modules/ioredis": "^2.0.2",
-    "ioredis": "^5.6.1"
+    "@nestjs-modules/ioredis": "^2.3.1",
+    "ioredis": "^5.11.1"
   },
   "peerDependencies": {
     "@nestjs/common": "^10.3.0 || ^11.0.0",
@@ -66,11 +66,11 @@
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
-    "@swc/core": "catalog:",
-    "@swc/jest": "catalog:",
     "@nestjs/common": "catalog:",
     "@nestjs/core": "catalog:",
     "@nestjs/testing": "catalog:",
+    "@swc/core": "catalog:",
+    "@swc/jest": "catalog:",
     "@types/jest": "catalog:",
     "@types/node": "catalog:",
     "@typescript-eslint/eslint-plugin": "catalog:",
