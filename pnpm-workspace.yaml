@@ -5,9 +5,9 @@ catalog:
   '@changesets/cli': ^2.31.1
   '@commitlint/cli': ^20.5.3
   '@commitlint/config-conventional': ^20.5.3
-  '@nestjs/common': ^11.2.7
-  '@nestjs/core': ^11.2.7
-  '@nestjs/testing': ^11.2.7
+  '@nestjs/common': ^11.2.8
+  '@nestjs/core': ^11.2.8
+  '@nestjs/testing': ^11.2.8
   '@nestjs/typeorm': ^11.0.3
   '@swc/core': ^1.16.20
   '@swc/jest': ^0.2.39
